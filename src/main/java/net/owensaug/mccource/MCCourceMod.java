@@ -2,6 +2,7 @@ package net.owensaug.mccource;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.owensaug.mccource.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,8 @@ public class MCCourceMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+
+		ModItems.registerModItems();
+
 	}
 }

@@ -1,8 +1,8 @@
-package net.owensaug.modteste;
+package net.owensaug.mccource;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class ModTesteModClient implements ClientModInitializer {
+public class MCCourceModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 

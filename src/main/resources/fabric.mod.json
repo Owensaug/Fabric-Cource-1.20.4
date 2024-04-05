@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "modteste",
+	"id": "mccource",
 	"version": "${version}",
-	"name": "Mod Teste",
+	"name": "Mod Cource Mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Owensaug"
@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.owensaug.modteste.ModTeste"
+          "net.owensaug.mccource.MCCourceMod"
 		],
 		"fabric-datagen": [
-			"net.owensaug.modteste.ModTesteDataGenerator"
+			"net.owensaug.mccource.MCCourceModDataGenerator"
 		],
 		"client": [
-			"net.owensaug.modteste.ModTesteModClient"
+			"net.owensaug.mccource.MCCourceModClient"
 		]
 	},
 	"mixins": [

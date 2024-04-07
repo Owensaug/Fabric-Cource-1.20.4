@@ -23,22 +23,8 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(MCCourceMod.MOD_ID, name), item);
     }
 
-    private static void itemGroupIngredients(FabricItemGroupEntries entries) {
-
-        entries.add(PINK_GARNET);
-        entries.add(RAW_PINK_GARNET);
-
-        entries.add(ModBlocks.PINK_GARNET_BLOCK);
-        entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
-        entries.add(ModBlocks.PINK_GARNET_ORE);
-        entries.add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
-        entries.add(ModBlocks.NETHER_PINK_GARNET_ORE);
-        entries.add(ModBlocks.END_STONE_PINK_GARNET_ORE);
-    }
 
     public static void registerModItems() {
         MCCourceMod.LOGGER.info("Registering Mod Items for " + MCCourceMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::itemGroupIngredients);
     }
 }

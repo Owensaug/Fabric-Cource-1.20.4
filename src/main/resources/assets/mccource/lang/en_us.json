@@ -1,8 +1,13 @@
 {
+  "itemgroup.pink_garnet_group": "Pink Garnet Group",
   "item.mccource.pink_garnet": "Pink Garnet",
   "item.mccource.raw_pink_garnet": "Raw Pink Garnet",
 
 
   "block.mccource.pink_garnet_block": "Block of Pink Garnet",
-  "block.mccource.raw_pink_garnet_block": "Block of Raw Pink Garnet"
+  "block.mccource.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+  "block.mccource.pink_garnet_ore": "Pink Garnet Ore",
+  "block.mccource.deepslate_pink_garnet_ore": "Deepslate Pink Garnet Ore",
+  "block.mccource.nether_pink_garnet_ore": "Nether Pink Garnet Ore",
+  "block.mccource.end_stone_pink_garnet_ore": "End Stone Pink Garnet Ore"
 }

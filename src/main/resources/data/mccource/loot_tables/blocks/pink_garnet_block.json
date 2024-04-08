@@ -2,19 +2,18 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mccource:pink_garnet_block"
+        }
+      ],
       "conditions": [
         {
           "condition": "minecraft:survives_explosion"
         }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "mccourse:pink_garnet_block"
-        }
-      ],
-      "rolls": 1.0
+      ]
     }
   ]
 }

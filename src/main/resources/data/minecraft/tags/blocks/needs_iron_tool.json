@@ -1,8 +1,9 @@
 {
   "replace": false,
   "values": [
-    "mccourse:pink_garnet_block",
-    "mccourse:raw_pink_garnet_block",
-    "mccourse:pink_garnet_ore"
+    "mccource:pink_garnet_ore",
+    "mccource:pink_garnet_block",
+    "mccource:raw_pink_garnet_block",
+    "mccource:deepslate_pink_garnet_ore"
   ]
 }

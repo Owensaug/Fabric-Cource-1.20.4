@@ -24,11 +24,20 @@
                   }
                 }
               ],
-              "name": "mccourse:nether_pink_garnet_ore"
+              "name": "mccource:nether_pink_garnet_ore"
             },
             {
               "type": "minecraft:item",
               "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 5.0,
+                    "min": 2.0
+                  },
+                  "function": "minecraft:set_count"
+                },
                 {
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:ore_drops",
@@ -38,7 +47,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "mccourse:raw_pink_garnet"
+              "name": "mccource:raw_pink_garnet"
             }
           ]
         }
